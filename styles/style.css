@@ -1,7 +1,10 @@
+
 body {
     display: flex;
     flex-direction: column;
 }
+
+/* Section 1 */
 
 .header {
     display: flex;
@@ -53,15 +56,75 @@ body {
 }
 
 
+/* Section 2 */
+
+
+.content-header {
+    color: black;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.piece {
+    text-align: center;
+    width: 250px;
+}
+
+
+.subject-description {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.subject {
+    font-size: 28px;
+    font-weight: 400px;
+    font-style: italic;
+}
 
 
 
 
+/* Section 3 */
+
+.quote-body{
+    background-color: #E5E7EB;
+display: flex;
+flex-flow: column wrap;
+justify-content: center;    
+height: 500px;
+}
 
 
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
 
+}
 
+.author{
+    font-weight :900;
+    text-align: end;
+    font-size: 25px;
+    padding-right: 40px;
+        padding-bottom: 10px;
 
+}
+
+/* General */
 
 button {
     border-radius: 25px;
@@ -88,13 +151,14 @@ a {
 }
 
 img {
-    max-width: 250px;
-    max-height: 250px;
+    border-radius: 10px;
+    width: 250px;
+    height: 140px;
 }
 
 .thumbnail {
     border-radius: 25px;
-
-    min-width: 450px;
+    min-width: 400px;
+    min-height: 185px;
     margin-right: 40px;
 }
